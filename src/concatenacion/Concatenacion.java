@@ -15,7 +15,13 @@ public class Concatenacion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        var alumno = "Lucía";
+        var titulo = "Informatico";
+        
+        var concat = titulo + " " + alumno;
+        
+        System.out.println("concat = " + concat);
     }
     
 }
